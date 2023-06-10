@@ -9,7 +9,8 @@ CommonNeighborAnalysis core algorithm written in python
 ![image](https://github.com/okihane/CommonNeighborAnalysis-Python/assets/30775452/f66bfa70-6693-45b1-8335-31742be68c0f)
 这个是我用到的A15结构中Nb原子的输出结果，用到了14个邻居原子，可以看到他有2个邻居原子的(i,j,k)是(6,6,6)，有12个邻居原子的(i,j,k)是(5,5,5).  
 ## ovito源码的修改：
-接下来可以在ovito的源代码里面修改，.h文件(头文件)里修改一处
+目录：src\ovito\particles\modifier\analysis\cna  
+.h文件(头文件)里修改一处
 ![image](https://github.com/okihane/CommonNeighborAnalysis-Python/assets/30775452/401e7ab1-8f3b-41f0-a023-d0cd065b6d78)
 .cpp文件里再修改几处，这里需要根据自己的情况进行修改。
 ![image](https://github.com/okihane/CommonNeighborAnalysis-Python/assets/30775452/9cf0bb3b-b174-4407-bd01-394e4962b901)
