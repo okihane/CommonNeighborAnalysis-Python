@@ -16,3 +16,8 @@ CommonNeighborAnalysis core algorithm written in python
 ![image](https://github.com/okihane/CommonNeighborAnalysis-Python/assets/30775452/9cf0bb3b-b174-4407-bd01-394e4962b901)
 ![image](https://github.com/okihane/CommonNeighborAnalysis-Python/assets/30775452/21aaa38f-ea4e-41c0-a410-ccd66ccafb62)
 ![image](https://github.com/okihane/CommonNeighborAnalysis-Python/assets/30775452/f7948ab8-4788-4b2e-8438-9df0cb1d2244)
+### 结果展示：  
+原版
+![image](https://github.com/okihane/CommonNeighborAnalysis-Python/assets/30775452/d8811e4b-fac0-4d21-a870-ccbf2a26a887)
+修改版
+![image](https://github.com/okihane/CommonNeighborAnalysis-Python/assets/30775452/35a56d47-f9ac-4a9e-9b0d-7fb7d47fe23a)
