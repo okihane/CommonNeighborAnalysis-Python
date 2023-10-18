@@ -134,18 +134,20 @@ class Chain:
 		#for tempair in pair:
 		for i1 in range(len(self.pair)):
 			self.tempair = np.array(self.pair[i1])
-			self.tempair = self.tempair[self.tempair[:,0].argsort()]
-			self.totalong = len(self.tempair)
-			self.lian = []
-			self.lianchang = 1
-			while self.totalong>0:
-				self.left = self.tempair[0][0]
-				self.right = self.tempair[0][1]
-				self.tempair = np.delete(self.tempair,0,axis=0)
-				self.totalong -= 1
-				self.leftsearch()
-				self.rightsearch()
-			self.alllian.append(np.amax(self.lian))
+			if len(self.tempair) > 0:
+				self.tempair = self.tempair[self.tempair[:,0].argsort()]
+				self.totalong = len(self.tempair)
+				self.lian = []
+				self.lianchang = 1
+				while self.totalong>0:
+					self.left = self.tempair[0][0]
+					self.right = self.tempair[0][1]
+					self.tempair = np.delete(self.tempair,0,axis=0)
+					self.totalong -= 1
+					self.leftsearch()
+					self.rightsearch()
+				self.alllian.append(np.amax(self.lian))
+			else: self.alllian.append(0)
 		return self.alllian
 if __name__ == '__main__':
 	lines, numneighbor, cline = choose(type)
