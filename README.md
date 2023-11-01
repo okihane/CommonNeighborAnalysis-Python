@@ -14,20 +14,23 @@ CommonNeighborAnalysis core algorithm written in python
 **注：这个程序只是用来测试cna所需要的（i,j,k）三个参数，最终是要借助ovito识别，后面还需要去修改ovito的源码，cna的adaptive部分，加几个判断条件。** 
   
 ### 2. ovito源码的修改：
-**目录：src\ovito\particles\modifier\analysis\cna**
-
+**目录：src\ovito\particles\modifier\analysis\cna**  
 **.h文件(头文件)里修改一处**
+
 ![image](https://github.com/okihane/CommonNeighborAnalysis-Python/assets/30775452/401e7ab1-8f3b-41f0-a023-d0cd065b6d78)
 
 **.cpp文件里再修改几处，这里需要根据自己的情况进行修改。**
+
 ![image](https://github.com/okihane/CommonNeighborAnalysis-Python/assets/30775452/9cf0bb3b-b174-4407-bd01-394e4962b901)
 ![image](https://github.com/okihane/CommonNeighborAnalysis-Python/assets/30775452/21aaa38f-ea4e-41c0-a410-ccd66ccafb62)
 ![image](https://github.com/okihane/CommonNeighborAnalysis-Python/assets/30775452/f7948ab8-4788-4b2e-8438-9df0cb1d2244)
 
 ### 3. 结果展示：  
 **原版**
+
 ![image](https://github.com/okihane/CommonNeighborAnalysis-Python/assets/30775452/d8811e4b-fac0-4d21-a870-ccbf2a26a887)
 **修改版**
+
 ![image](https://github.com/okihane/CommonNeighborAnalysis-Python/assets/30775452/35a56d47-f9ac-4a9e-9b0d-7fb7d47fe23a)
 
 ### 引用：
