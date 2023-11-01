@@ -5,7 +5,7 @@ CommonNeighborAnalysis core algorithm written in python
 2. 主程序`1.1.py`，需要在choose函数修改几个参数，**第一个是要读取的data文件名**，**第二个是邻居个数**，一般是12或者14，对应到程序里填13或者15（因为我程序写的不是太完美，需要把邻居数+1才能正常运行，实际还是按照12或14个邻居计算的），**第三个参数是cline**，就是要计算的原子在data文件的第几行，需要手动减去1，因为python读取的时候第一行的下标是0。**还有一个参数是type**，因为choose函数定义了好几种类型，type需要指定其中一种。
 3. 运行`python 1.1.py` 
 
-**下面运行是通过该脚本的输出来获取的识别参数的实例：**
+**下面运行是通过该脚本的输出来获取的识别参数的是示例：**
 1. 下图是一个fcc原子的识别结果，输出的内容有三行，分别代表i,j,k三个数，每一行有12个数，就是邻居的个数，每一个邻居原子的(i,j,k)三个参数都是(4,2,1)
    
 ![image](https://github.com/okihane/CommonNeighborAnalysis-Python/assets/30775452/9888e3f2-ccc1-4040-924c-396363ecbd8d)
