@@ -7,9 +7,11 @@ CommonNeighborAnalysis core algorithm written in python
 
 **下面运行是通过该脚本的输出来获取的识别参数的实例：**
 1. 下图是一个fcc原子的识别结果，输出的内容有三行，分别代表i,j,k三个数，每一行有12个数，就是邻居的个数，每一个邻居原子的(i,j,k)三个参数都是(4,2,1)
+   
 ![image](https://github.com/okihane/CommonNeighborAnalysis-Python/assets/30775452/9888e3f2-ccc1-4040-924c-396363ecbd8d)
 
 2. 这个是我用到的A15结构中Nb原子的输出结果，用到了14个邻居原子，可以看到他有2个邻居原子的(i,j,k)是(6,6,6)，有12个邻居原子的(i,j,k)是(5,5,5).
+   
 ![image](https://github.com/okihane/CommonNeighborAnalysis-Python/assets/30775452/f66bfa70-6693-45b1-8335-31742be68c0f)
 **注：这个程序只是用来测试cna所需要的（i,j,k）三个参数，最终是要借助ovito识别，后面还需要去修改ovito的源码，cna的adaptive部分，加几个判断条件。** 
   
